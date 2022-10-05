@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Clase\ inicial\ del\ Programa\ C10743_TP1\ (MAQUINA\ TRAGA-MONEDAS)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ M\u00E9todo\ principal\ del\ programa.\r\n\ \r\n\ @param\ args\ Argumentos\ del\ programa.\r\n
+comment2.params=
+comment2.target=void\ start()
+comment2.text=\r\n\ Metodo\ estatico\ que\ me\ va\ a\ incializar\ la\ maquina.\r\n
+comment3.params=credit
+comment3.target=void\ menu(int)
+comment3.text=\r\n\ M\u00E9todo\ estatico\ que\ me\ inicia\ el\ juego.\ \r\n\r\n\ @param\ credit\ Credito\ actual\ del\ jugador.\r\n
+comment4.params=betCredit
+comment4.target=int\ betAndPlay(int)
+comment4.text=\r\n\ Metodo\ estatico\ que\ me\ controla\ el\ juego.\r\n\r\n\ @param\ betCredit\ Saldo\ actual\ del\ jugador.\r\n\ @return\ El\ valor\ de\ la\ ganancia\ por\ ronda.\r\n
+comment5.params=playerBet
+comment5.target=int\ machineDisks(int)
+comment5.text=\r\n\ Metodo\ que\ me\ simulara\ la\ Maquina\ Traga-Monedas.\r\n\ \r\n\ @param\ playerBet\ Apuesta\ hecha\ por\ el\ jugador.\r\n\ @return\ El\ valor\ de\ la\ ganancia\ por\ ronda.\r\n
+comment6.params=
+comment6.target=int\ disk()
+comment6.text=\r\n\ Metodo\ que\ me\ dara\ un\ valor\ principal\ para\ el\ disco.\ Me\ retorna\ un\ valor\ para\ el\ disco\ segun\ la\ posicion\ de\ la\ siguiente\ forma.\ Me\ da\ un\r\n\ primer\ numero\ entre\ 0.0\ y\ 1.0\ sin\ incluir\ uno,\ y\ posteriormente\ otro\ valor\ de\ la\ misma\ forma.\ Ambos\ los\ multiplico\ por\ 10\ y\ posteriormente\r\n\ los\ sumo\ para\ que\ me\ de\ un\ valor\ entre\ 00\ y\ 18,\ siendo\ asi\ asignados\ a\ un\ valor\ especifico\ de\ la\ lista\ de\ valores.\r\n\r\n\ @return\ Valor\ del\ disco.\r\n
+comment7.params=disk1\ disk2\ disk3\ disk4\ disk5\ playerBet
+comment7.target=int\ checkDisks(int,\ int,\ int,\ int,\ int,\ int)
+comment7.text=\r\n\ Metodo\ estatico\ que\ me\ chequeara\ los\ discos\ para\ asi\ poder\ dar\ un\ resultado\ a\ la\ apuesta.\r\n\r\n\ @param\ disk1\ Valor\ principal\ del\ disco\ 1.\r\n\ @param\ disk2\ Valor\ principal\ del\ disco\ 2.\r\n\ @param\ disk3\ Valor\ principal\ del\ disco\ 3.\r\n\ @param\ disk4\ Valor\ principal\ del\ disco\ 4.\r\n\ @param\ disk5\ Valor\ principal\ del\ disco\ 5.\r\n\ @param\ playerBet\ Valor\ de\ la\ apuesta\ actual\ del\ jugador.\r\n\ @return\ El\ valor\ de\ la\ ganancia\ por\ ronda.\r\n
+numComments=8
